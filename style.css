@@ -1,0 +1,10 @@
+body{background:#f8f8f8;font-size:18px;}
+        h1{display:none}
+        h2{color:orange}
+        h3{padding:0;margin:0;margin-top:30px;font-size:20px;color:#555}
+        p{margin:6px 0}
+        article{border-bottom:1px solid #eee;padding:50px 0}
+        strong{font-size:18px;}
+        span{color:#e61818;font-weight:550;font-size:0.8em;}
+        /* ul li:nth-child(1){list-style:none} */
+        img{width:53%}
