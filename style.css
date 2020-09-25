@@ -8,3 +8,18 @@ body{background:#f8f8f8;font-size:18px;}
         span{color:#e61818;font-weight:550;font-size:0.8em;}
         /* ul li:nth-child(1){list-style:none} */
         img{width:53%}
+
+article table tbody tr th,td{
+    border:1px solid orange;
+    border-collapse: collapse;
+    padding:7px 10px;
+}
+
+#operator .operatorFlex{
+        display:flex;
+}
+.operatorFlex dl{
+        display:flex;
+        margin: 0;
+        padding: 5px 5px 13px 10px;
+}
