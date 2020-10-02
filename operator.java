@@ -12,7 +12,7 @@ public class Operatoer {
 
         b %= 5;
         ststem.out.printLn(b);
-
+        
         int c = 5;
         int d;
         d = c++;
