@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내용정리</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <article>
+            <h2>상속</h2>
+            <p>반복되는 작업을 피하기 위해</p>
+        </article>
+        <article>
+            <ul>
+                <li>ex) public class Human(){<br>
+                    먹기<br>
+                    잠자기<br>
+                    씻기<br>    
+                }
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    public class Father() <strong>extends Human()</strong>{<br>
+                        일하기<br>    
+                    }
+                </li>
+                <li>
+                    public class Mother() <strong>extends Human()</strong>{<br>
+                        요리하기<br>    
+                    }
+                </li>
+                <li>
+                    public class Son() <strong>extends Human()</strong>{<br>
+                        공부하기<br>    
+                    }
+                </li>
+            </ul>
+            <p>위처럼 extends Human 통해 동일한 작업을 반복하지 않고 상속한다</p>
+        </article>
+        <article>
+            <p>하지만 먹기, 잠자기, 씻기처럼 반복이지만 자식 클래스에서 세부적인 내용이 다를 수 있다.</p>
+            <p>ex)먹기 이지만 많이먹기, 적게먹기, 매우 적게 먹기 등</p>
+            <hr>
+            <p>이런경우 
+                <strong>override</strong> 메소드를 사용 할 수 있다<br>
+                public class Son() <strong>extends Human()</strong>{<br>
+                    공부하기<br> 
+                    override 먹기 {매우 적게 먹기}<br>   
+                }
+            </p>
+        </article>
+    </section>
+</body>
+</html>
