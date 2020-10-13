@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연산자</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="operator">
+        <article>
+            <h2>Generic</h2>
+            <p>타입의 안정성을 높일 수 있고 항변화를 해야 할 번거로움을 없앨 수 있다</p>
+        </article>
+        <article>
+            <ul>
+                <li><strong>제너릭을 사용 하지 않는 경우</strong></li>
+                <li>
+                    ArrayList arrayList = new ArrayList(); <br>
+                    arrayList.add("fast");<br>
+                    string date = (string)arrayList.get(0);
+                </li>
+            </ul>
+            <ul>
+                <li><strong>제너릭을 사용 하는 경우</strong></li>
+                <li>
+                    ArrayList arrayList = new ArrayList<string>(); <br>
+                    arrayList.add("fast");<br>
+                    string date = arrayList.get(0);
+                </li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
