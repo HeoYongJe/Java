@@ -9,6 +9,7 @@
 <body>
     <section>
         <article>
+            <h1>자바기초</h1>
             class Ex1{  // 클래스명 Ex1  = 파일명 </br>
 
                 public static void main(String[] args){   // main 메소드 공부하기 </br>
@@ -19,6 +20,44 @@
             } </br>
             <p>class명은 파일명과 같으며 대소문자 구분을 한다</p>
             <p>위 코드는 Ex1 클래스 블록안에 main메소드 블록이 들어가 있는 것이다</p>
+        </article>
+        <article>
+            <h2>자바의 특징</h2>
+            <p><strong>이식성이 좋다</strong>
+                다른언어 같은 경우에는 운영체제별로 개발을 해야하지만  Java언어로 개발된 프로그램은 소스 파일을 다시 수정하지 않아도, 자바 실행환경(JRE: Java Runtime Environment)이 설치되어 있는 모든 운영체제에서 실행 가능  
+            </p>
+        </article>
+        <article>
+            public class NullTest { <br>
+                public static void main(String[] args){ <br>
+                /*	int val; // 초기값이 없어서 오류 발생 <br>
+                    int val1 = 10; <br>
+                    int result = val + val1; <br>
+                */
+                    int val = 10; <br>
+                    int val1 = 20; <br>
+                    int result = val + val1; <br>
+                    System.out.println(result);	 <br>		
+                } <br>
+            } <br>
+            <ul>
+                <li>클래스명 = 파일명 / 대문자를 써준다(개발자끼리의 약속)</li>
+                <li>String / System 맨앞에 무조건 대문자를 사용</li>
+                <li>ln = line의 약자이며 행을 바꿔준다 / ex)print 만 적으면 옆으로 이어져서 나온다</li>
+            </ul>
+        </article>
+        <article>
+            public class LongTest{ <br> 
+                public static void main(String [] args){ <br>
+                    int i = 10; // 정수형 데이터 / int = 4byte <br>
+                    int i1 = 20; <br>
+                    System.out.println(i + i1); <br>
+                    long l = 10l; // 정수형 데이터 / long = 8byte <br>
+                    long l1 = 30000000000l; <br> 
+                    System.out.println(l + l1); <br>
+                } <br>
+                // 실수의 double와 float 처럼 정수 역시 int 보다 long 가 크다 <br>
+            } <br>
         </article>
     </section>
 </body>
