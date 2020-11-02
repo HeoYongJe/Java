@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA 기초</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <article>
+            <h1>자바기초</h1>
+            <ul>
+                <li><strong>변수</strong></li>
+                <li>자바에서는 변수에 값이 저장되지 않으면 변수가 생성되지 않는다</li>
+                <li>변수의 선언과 생성은 다르다
+                    <ul>
+                        <li>int score; //선언 : 저장되는 값의 종류와 이름만 언급</li>
+                        <li>score = 90; //값 저장: 변수에 최초로 값이 저장될 때(초기값) 생성된다, <strong>변수초기화</strong>라고도 한다</li>
+                    </ul>
+                </li>
+                <li>int score = 90; // 초기값은 변수를 선언함과 동시에 제공할 수도 있다</li>
+                <li>초기화되지 않은 변수는 아직 메모리 번지 정보를 가지고 있지 않으므로 변수를 통해 메모리 값을 읽을 수 없다
+                    <ul>
+                        <li>int value; //변수선언</li>
+                        <li>int result = value + 10; //선언은 했지만 초기화가 안됬기 때문에 value + 10에서 value변수는 존재하지 않는다</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
