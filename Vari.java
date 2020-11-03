@@ -1,6 +1,6 @@
-public class VariableAndType{
+public class Vari{
     
-    public static void main(string[] args) {
+    public static void main(String[] args) {
     
         short nuber1;
         int number2;
@@ -31,6 +31,6 @@ public class VariableAndType{
         b = 6 + 7 + 8 + 9;
         int result;
         result = a + b;
-        system.out.println(result);
+        System.out.println(result);
     }
 }
