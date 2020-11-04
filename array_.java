@@ -1,6 +1,6 @@
-public class Array_ {
+public class Array {
 
-    public class Array_ {
+    public class Array {
     
         public static void main(string[] args) {
 

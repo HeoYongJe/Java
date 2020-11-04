@@ -2,7 +2,7 @@ public class Vari{
     
     public static void main(String[] args) {
     
-        short nuber1;
+        short number1;
         int number2;
         long number3;
     
